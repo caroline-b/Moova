@@ -1,0 +1,131 @@
+@media(max-width:768px){	
+	
+	body, min, .row{
+/*
+		overflow-x: hidden !important;
+		margin: 0;
+*/
+	}
+	
+	input[type=submit] {
+		font-size:2vh;
+	}
+
+	header{
+		height: 64px;
+	}	
+	
+	header img{
+		height: 34px;
+		margin-top:10px;
+	}
+	
+	#main_nav{
+		position: absolute;
+		right: 0;
+		left: 0;
+		top: 64px;
+		background: rgba( 0, 60, 65, 1);
+		z-index: 9999;
+		margin: 0 -15px;
+	}
+	
+	.navbar-nav>li>a{
+		line-height: 5vh;		
+	}
+	
+	main{
+		height: 100%;
+		overflow: auto;
+	}
+
+	#premier_plan{
+		position: relative;
+	}
+	
+	#slide{
+		top:60px;
+	}
+	
+	#slide .item,
+	#slide .item img{
+		height: auto !important;
+		min-height: auto !important;
+	}	
+	
+	p {
+	    font-size: 14px;
+	    line-height: 1.4em;
+	}
+
+	.well p {
+		text-align:left!important;
+	}
+
+	.navbar-default .navbar-nav>li>a{
+	    font-size: 14px;
+	    line-height: 2.4em;	
+	    text-align:center;	
+	}
+	
+	#btn_projet span{
+	    font-size: 14px;
+	    line-height: 1.7em;				
+	}
+	
+	#rs {
+		display:flex;
+		height:40px;
+		align-items: center;
+		justify-content: flex-end;
+		margin-right:18px;
+	}
+	#rs i{
+		width: 25px;
+		height: 25px;
+		line-height: 25px !important;
+	}
+
+	.cta span{
+	    font-size: 10px;	
+	}
+
+	#cta_listing.cta a i{
+		line-height: 45px;
+		height: 45px;
+		width: 45px;
+		font-size: 20px;
+	}	
+	
+	#listing a{
+		margin: 0;
+		opacity: 1;
+/* 		background: rgba( 0, 60, 65, 0.9); */
+	}
+
+	h1{
+		font-size: 22px;
+		font-weight:500;
+		margin-bottom:10px;
+	}
+
+/*
+	#listing .col-md-6{
+		width: 50%;
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}	
+*/
+
+	.navbar-toggle{
+		margin-right: 0;
+	}
+	
+	.form-control{
+		font-size: 10px;
+	}
+
+}
+
